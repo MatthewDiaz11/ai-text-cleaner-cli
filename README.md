@@ -76,19 +76,19 @@ OPENAI_API_KEY=your_api_key_here
 ### Basic usage
 
 ```bash
-python main.py input_texts output_texts
+python ai_cleaner.py input_texts output_texts
 ```
 
 ### Dry run (no API calls)
 
 ```bash
-python main.py input_texts output_texts --dry-run
+python ai_cleaner.py input_texts output_texts --dry-run
 ```
 
 ### Limit number of files processed
 
 ```bash
-python main.py input_texts output_texts --max-files 5
+python ai_cleaner.py input_texts output_texts --max-files 5
 ```
 
 ---
@@ -122,8 +122,8 @@ Each output file contains:
 
 - Cleaning lecture notes or study materials  
 - Summarizing meeting transcripts or interviews  
-- Processing raw or scraped text data
-- MORE
+- Processing raw or scraped text data  
+- Preparing text for downstream NLP workflows  
 
 ---
 
@@ -131,7 +131,7 @@ Each output file contains:
 
 ```text
 .
-├── main.py
+├── ai_cleaner.py
 ├── README.md
 ├── .env.example
 └── input/
